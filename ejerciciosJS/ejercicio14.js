@@ -1,3 +1,4 @@
+let string = "Hey Tú, cómo te llamas. ¡Hey, estoy hablando contigo!"
 
-let num = 5;
-console.log(num + Number("5"));
+console.log(string);
+console.log(string.replace('contigo', 'yo'));

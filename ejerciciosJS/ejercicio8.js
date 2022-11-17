@@ -1,3 +1,4 @@
-
-let num = 5;
-console.log(num + Number("5"));
+let nombre = prompt("¿Como te llamas?") ;
+let bienvenida = "Bienvenido a la academia, ";
+let frase = bienvenida + nombre;
+console.log(frase);
